@@ -108,8 +108,8 @@
         <div class="modal-content">
             <img src="image/modal_cat.png" alt="Cat Icon">
             <h2>Thank you!</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-                <button id="modal-off-btn" type="button" onclick="modalOff()">OK! I Love HODU</button>
+            <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+            <button id="modal-off-btn" type="button" onclick="modalOff()">OK! I Love HODU</button>
         </div>
     </div>
     <!-- 모달창 -->
@@ -125,8 +125,21 @@
         </div>
     </footer>
     <script>
+        function validateEmail() {
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // 간단한 이메일 패턴
+            let emailInput = document.getElementById("email").value;
+
+            if (emailInput === "") {
+                alert("이메일을 입력하세요.");
+            } else if (!emailPattern.test(emailInput)) {
+                alert("유효한 이메일 형식을 입력하세요.");
+            } else {
+                modalOn()
+            }
+        }
+
         const modalBtn = document.getElementById("modal-btn")
-        const modalOffBtn=document.getElementById("modal-off-btn");
+        const modalOffBtn = document.getElementById("modal-off-btn");
         const modal = document.getElementById("modal")
 
         function modalOn() {
@@ -138,12 +151,11 @@
         modalBtn.addEventListener("click", e => {
             modalOn()
         })
-        modalOffBtn.addEventListener("click",e=>{
+        modalOffBtn.addEventListener("click", e => {
             modalOff()
         })
     </script>
     <script src="js/scroll.js"></script>
-    <script src="js/modal.js"></script>
 </body>
 
 </html>

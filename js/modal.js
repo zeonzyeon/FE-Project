@@ -1,20 +1,20 @@
 // let modalWindow;
 
 // 이메일 유효성 검사 및 모달창 열기
-function validateEmail() {
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // 간단한 이메일 패턴
-    let emailInput = document.getElementById("email").value;
+// function validateEmail() {
+//     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // 간단한 이메일 패턴
+//     let emailInput = document.getElementById("email").value;
 
-    if (emailInput === "") {
-        alert("이메일을 입력하세요.");
-        return;
-    } else if (!emailPattern.test(emailInput)) {
-        alert("유효한 이메일 형식을 입력하세요.");
-        return;
-    } else {
-        modalOn();
-    }
-}
+//     if (emailInput === "") {
+//         alert("이메일을 입력하세요.");
+//         return;
+//     } else if (!emailPattern.test(emailInput)) {
+//         alert("유효한 이메일 형식을 입력하세요.");
+//         return;
+//     } else {
+//         modalOn();
+//     }
+// }
 
 // 모달창 열기
 // function openModalWindow() {
