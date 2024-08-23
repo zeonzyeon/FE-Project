@@ -143,4 +143,5 @@
     position: relative;
     z-index: 3;
     left: 190px;
+    cursor : pointer;
 }
