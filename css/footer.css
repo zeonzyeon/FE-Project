@@ -8,8 +8,8 @@ footer {
     height: 160px;
 }
 
-#scroll-btn {
-    /* display: none; */
+#scroll-top-btn {
+    display: none;
     width: 35px;
     height: 35px;
     bottom: 115px;
@@ -26,7 +26,8 @@ footer {
     border: none;
 }
 
-#scroll-btn:hover {
+#scroll-top-btn:hover {
+    display: none;
     width: 35px;
     height: 35px;
     position: fixed;
@@ -36,6 +37,7 @@ footer {
     border: 1px solid rgba(196, 196, 196, 1);
     background-size: cover;
     border: none;
+    cursor: pointer;
 }
 
 .hodu-logo {

@@ -91,7 +91,7 @@
                         Lorem Ipsum has been the industry's standard dummy text </p>
                 </div>
                 <div class="subscribe-form">
-                    <form id="subscribeForm" action="" method="POST" class="email-form">
+                    <form id="subscribeForm" onsubmit="submitEmail(event)" action="" method="POST" class="email-form">
                         <label for="email">
                             <img src="image/mail.png" alt="Mail Icon" class="mail-icon">
                         </label>
@@ -115,7 +115,7 @@
     <!-- 모달창 -->
     <br><br>
     <footer>
-        <button id="scroll-btn" onclick="topFunction()"></button>
+        <button id="scroll-top-btn" onclick="scrollToTop()"></button>
         <img class="hodu-logo" src="image/HODU_logo.png" alt="Hodu logo"></div>
         <div class="footer-social">
             <img src="image/icon_b.png" alt="b">
@@ -125,6 +125,7 @@
         </div>
     </footer>
     <script>
+        // 이메일 유효성 검사
         function validateEmail() {
             const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // 간단한 이메일 패턴
             let emailInput = document.getElementById("email").value;
@@ -134,25 +135,50 @@
             } else if (!emailPattern.test(emailInput)) {
                 alert("유효한 이메일 형식을 입력하세요.");
             } else {
-                modalOn()
+                modalOn();
             }
         }
 
-        const modalBtn = document.getElementById("modal-btn")
+        const modalBtn = document.getElementById("modal-btn");
         const modalOffBtn = document.getElementById("modal-off-btn");
-        const modal = document.getElementById("modal")
+        const modal = document.getElementById("modal");
 
+        // 모달창 띄우기
         function modalOn() {
-            modal.style.display = "flex"
+            modal.style.display = "flex";
         }
         function modalOff() {
-            modal.style.display = "none"
+            modal.style.display = "none";
+        }
+        function submitEmail(event) {
+            alert("이메일이 제출되었습니다.");
+            document.getElementById("emailForm").submit(); // 폼 제출
         }
         modalOffBtn.addEventListener("click", e => {
-            modalOff()
+            submitEmail();
+            modalOff();
         })
+
+        // 스크롤
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            const scrollTopBtn = document.getElementById("scrollTopBtn");
+            if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+                scrollTopBtn.style.display = "flex"; // 스크롤이 20px 이상 내려가면 버튼 표시
+            } else {
+                scrollTopBtn.style.display = "none"; // 스크롤이 20px 미만이면 버튼 숨김
+            }
+        }
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
     </script>
-    <script src="js/scroll.js"></script>
 </body>
 
 </html>
