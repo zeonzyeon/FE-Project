@@ -1,7 +1,7 @@
 // 이메일 유효성 검사 및 모달창 열기
 function validateEmail() {
-    var emailInput = document.getElementById("email").value;
-    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // 간단한 이메일 패턴
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // 간단한 이메일 패턴
+    let emailInput = document.getElementById("email").value;
 
     if (emailInput === "") {
         alert("이메일을 입력하세요.");
@@ -11,22 +11,22 @@ function validateEmail() {
         openModalWindow();
     }
 }
+
+let modalWindow;
+
 // 모달창 열기
 function openModalWindow() {
-    window.open('modal_pc.html', 'modalWindow', 'width=600,height=400');
+    modalWindow = window.open('modal_pc.html', '_blank', 'width=600,height=400');
 }
-// 모달창 닫기 및 폼 제출
-// document.getElementById("closeModal").onclick = function () {
-//     var modal = document.getElementById("modal");
-//     modal.style.display = "none";
 
-//     // 폼 제출
-//     document.getElementById("subscribeForm").submit();
-// }
-// 모달창 외부 클릭시 닫기
-// window.onclick = function(event) {
-//     var modal = document.getElementById("modal");
-//     if (event.target == modal) {
-//         modal.style.display = "none";
-//     }
-// }
+// 모달창 닫기 및 폼 제출
+function closeModalWindow() {
+    if (modalWindow) {
+        modalWindow.close();
+    }
+    // 폼 제출
+    document.getElementById("subscribeForm").submit();
+    // 폼 제출 후 확인 문구 표시
+    alert("작성한 폼이 제출되었습니다.");
+    // 참조된 창을 닫기
+}
