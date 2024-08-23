@@ -1,0 +1,33 @@
+.section-three {
+    display: flex;
+    justify-content: center;
+    padding: 0 320px;
+}
+
+.location-section .text-box {
+    text-align: left;
+}
+
+.location-section h3 {
+    font-family: Pretendard;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+
+.location-section p {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(96, 99, 103, 1);
+    margin-bottom: 30px;
+}
+
+.location-section img {
+    width: 1280px;
+    height: 520px;
+    border-radius: 12px;
+}

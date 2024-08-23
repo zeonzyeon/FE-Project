@@ -1,0 +1,103 @@
+.image-text-combo-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 320px;
+    gap: 60px
+}
+
+.section-one img {
+    width: 660px;
+    height: 390px;
+    border-radius: 30px;
+}
+
+/* .text-box {
+    align-items: center;
+} */
+
+.text-box h2 {
+    width: 510px;
+    height: 135px;
+
+    font-family: Pretendard;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.text-box p {
+    width: 510px;
+    height: 40px;
+
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1)
+}
+
+.image-text-combo-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.section-two h3 {
+    width: auto;
+    height: 60px;
+    top: 1570px;
+    margin-bottom: 30px;
+
+    font-family: Pretendard;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgba(217, 118, 82, 1);
+}
+
+.section-two p {
+    width: 800px;
+    height: 42px;
+    top: 1670px;
+
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+p span {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(217, 118, 82, 1);
+}
+
+.image-gallery img {
+    width: 430px;
+    height: 430px;
+    border-radius: 30px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* 두 줄 사이의 간격 */
+}
+
+.image-gallery-row {
+    display: flex;
+    justify-content: center;
+    /* 이미지 간의 간격을 고르게 분배 */
+}

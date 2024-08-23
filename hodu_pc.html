@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hodu</title>
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/section.css" />
+    <link rel="stylesheet" href="CSS/aside.css" />
+    <link rel="stylesheet" href="CSS/map.css" />
+    <link rel="stylesheet" href="CSS/subscribe.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="image/HODU_logo.png" alt="Hodu logo"></div>
+        <nav><button>Home</button><button>About</button><button>Support</button>
+            <button id="orange-btn">Download</button>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="content-text">
+                <h1>Lorem Ipsum is simply<br>dummy text of the printing and</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                </p>
+                <button id="orange-btn">Download</button>
+            </div>
+            <img src="image/box_cat.png" alt="고양이와 상자">
+        </div>
+    </main>
+    <br><br><br>
+    <section class="section-one">
+        <div class=" image-text-combo-one">
+            <img src="image/img_0.png" alt="누워있는 고양이">
+            <div class="text-box">
+                <h2>Lorem Ipsum is simply dummy text of the printing and dummy text</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section class="section-two">
+        <div class="image-text-combo-two">
+            <h3>dummy text of the printing and dummy</h3>
+            <p>Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry.
+                <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+            </p>
+        </div><br><br>
+        <div class="image-gallery">
+            <div class="image-gallery-row">
+                <img src="image/img_1.png" alt="고양이1">
+                <img src="image/img_2.png" alt="고양이2">
+                <img src="image/img_3.png" alt="고양이3">
+            </div>
+            <div class="image-gallery-row">
+                <img src="image/img_4.png" alt="고양이4">
+                <img src="image/img_5.png" alt="고양이5">
+                <img src="image/img_6.png" alt="고양이6">
+            </div>
+        </div>
+    </section>
+    <br>
+    <aside>
+        <h4>Continue exploring HODU</h4>
+        <button id="orange-btn">Show more</button>
+    </aside>
+    <br><br><br>
+    <hr><br><br>
+    <section class="section-three">
+        <div class="location-section">
+            <div class="text-box">
+                <h3>Where you'll be</h3>
+                <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+            </div>
+            <img src="image/map.png" alt="지도 이미지">
+        </div>
+    </section>
+    <br><br><br><br>
+    <section class="section-four">
+        <div class="subscribe-section">
+            <div class="subscribe-content">
+                <div class="text-box">
+                    <h4>Subscribe to our Blog post</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text </p>
+                </div>
+                <div class="subscribe-form">
+                    <form action="" method="POST" class="email-form">
+                        <label for="email">
+                            <img src="image/mail.png" alt="Mail Icon" class="mail-icon">
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="Enter your e-mail address" required>
+                        <button id="orange-btn2" type="button" onclick="validateEmail()">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <img src="image/footer_cat.png" alt="고양이" class="background-image">
+        
+    </section>
+    <br><br>
+    <footer>
+        <button id="scroll-btn" onclick="topFunction()">
+            <!-- <img id="scroll-default" src="image/scroll_0.png" alt="Scroll Default">
+            <img id="scroll-hover" src="image/scroll_1.png" alt="Scroll Hover"> -->
+        </button>
+        <img class="hodu-logo" src="image/HODU_logo.png" alt="Hodu logo"></div>
+        <div class="footer-social">
+            <img src="image/icon_b.png" alt="b">
+            <img src="image/icon_insta.png" alt="instagram">
+            <img src="image/icon_f.png" alt="f">
+            <img src="image/icon_youtube.png" alt="youtube">
+        </div>
+    </footer>
+    <script src="scroll.js"></script>
+    <script src="modal.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+footer {
+    padding: 0 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 160px;
+}
+
+#scroll-btn {
+    /* display: none; */
+    width: 35px;
+    height: 35px;
+    bottom: 115px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1;
+    background: url("../image/scroll_0.png");
+    background-color: rgba(196, 196, 196, 1);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: 1;
+    border: none;
+}
+
+#scroll-btn:hover {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    z-index: 1;
+    background: url("../image/scroll_1.png");
+    background-size: cover;
+    border: none;
+}
+
+.hodu-logo {
+    width: auto;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.footer-social img {
+    width: 35px;
+    height: 35px;
+    margin-top: 60px;
+}
