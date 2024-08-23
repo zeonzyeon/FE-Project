@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/map.css" />
     <link rel="stylesheet" href="css/subscribe.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/modal.css" />
 </head>
 
 <body>
@@ -95,13 +96,23 @@
                             <img src="image/mail.png" alt="Mail Icon" class="mail-icon">
                         </label>
                         <input type="email" id="email" name="email" placeholder="Enter your e-mail address" required>
-                        <button id="orange-btn2" type="button" onclick="validateEmail()">Subscribe</button>
+                        <button id="modal-btn" type="button" onclick="validateEmail()">Subscribe</button>
                     </form>
                 </div>
             </div>
         </div>
         <img src="image/footer_cat.png" alt="고양이" class="background-image">
     </section>
+    <!-- 모달창 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <img src="image/modal_cat.png" alt="Cat Icon">
+            <h2>Thank you!</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+                <button id="modal-off-btn" type="button" onclick="modalOff()">OK! I Love HODU</button>
+        </div>
+    </div>
+    <!-- 모달창 -->
     <br><br>
     <footer>
         <button id="scroll-btn" onclick="topFunction()"></button>
@@ -113,6 +124,24 @@
             <img src="image/icon_youtube.png" alt="youtube">
         </div>
     </footer>
+    <script>
+        const modalBtn = document.getElementById("modal-btn")
+        const modalOffBtn=document.getElementById("modal-off-btn");
+        const modal = document.getElementById("modal")
+
+        function modalOn() {
+            modal.style.display = "flex"
+        }
+        function modalOff() {
+            modal.style.display = "none"
+        }
+        modalBtn.addEventListener("click", e => {
+            modalOn()
+        })
+        modalOffBtn.addEventListener("click",e=>{
+            modalOff()
+        })
+    </script>
     <script src="js/scroll.js"></script>
     <script src="js/modal.js"></script>
 </body>
