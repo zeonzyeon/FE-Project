@@ -1,0 +1,46 @@
+nav {
+    width: 289px;
+    height: 820px;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    overflow-x: hidden;
+    transition: right 0.3s ease-out;
+    background-color: rgba(38, 49, 64, 1);
+}
+
+.close-menu {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(38, 49, 64, 1);
+    background: url("../image/close_menu.png");
+    background-size: cover;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.nav-menu {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+
+.nav-menu button {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(38, 49, 64, 1);
+}
+
+nav #orange-btn {
+    margin-top: 55px;
+    margin-left: 40px;
+}

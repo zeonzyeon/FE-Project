@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hodu</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css_mobile/header.css">
+    <link rel="stylesheet" href="css_mobile/nav.css">
+    <link rel="stylesheet" href="css_mobile/main.css">
 </head>
+
 <body>
     <header>
         <div class="logo"><img src="image/HODU_logo.png" alt="Hodu logo"></div>
-        <div class="menu-icon" onclick="toggleNav()">&#9776;</div>
+        <button id="open-menu" class="open-menu" onclick="openMenu()"></div>
     </header>
-    <main>
-        <h1>Lorem Ipsum is simply dummy text of the printing and</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
-        <button class="download-btn">Download</button>
-        <img src="cat-image.png" alt="Cat with box on its head" class="cat-image">
-    </main>
-    <nav id="side-nav" class="side-nav">
-        <a href="javascript:void(0)" class="close-btn" onclick="toggleNav()">&#8592;</a>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Support</a>
-        <button class="download-btn">Download</button>
+    <nav id="nav">
+        <button id="close-menu" class="close-menu" onclick="closeMenu()"></button>
+        <div class="nav-content">
+            <div class="nav-menu">
+                <button>Home</button><button>About</button><button>Support</button>
+            </div>
+            <button id="orange-btn">Download</button>
+        </div>
     </nav>
-    <script>
-
-    </script>
+    <main>
+        <div class="main-content">
+            <div class="content-text">
+                <h1>Lorem Ipsum is simply<br>dummy text<br>of the printing and</h1><br>
+                <p>Lorem Ipsum is simply dummy text<br>of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's<br>standard dummy text ever since the 1500s,<br>when an unknown
+                </p><br>
+                <button id="orange-btn">Download</button><br>
+            </div>
+            <img src="image/box_cat.png" alt="고양이와 상자">
+        </div>
+    </main>
+    <script src="js_mobile/menu.js"></script>
 </body>
+
 </html>
