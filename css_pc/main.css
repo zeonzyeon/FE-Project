@@ -5,16 +5,17 @@ main {
     justify-content: space-between;
     padding: 0 320px;
     background-color: rgba(242, 233, 216, 1);
+
 }
 
 .content-text {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:40px;
+    gap: 40px;
     font-family: Pretendard;
     text-align: left;
     color: rgba(0, 0, 0, 1);
-    margin-top:200px;
+    margin-top: 200px;
 }
 
 .content-text h1 {

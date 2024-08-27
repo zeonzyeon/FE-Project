@@ -1,10 +1,10 @@
-.image-text-combo-one {
+/* 섹션1 */
+.section-one {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0px 320px;
-    gap: 60px
+    gap: 110px
 }
 
 .section-one img {
@@ -13,49 +13,55 @@
     border-radius: 30px;
 }
 
-/* .text-box {
+.text-box {
     align-items: center;
-} */
+    display: flex;
+    flex-direction: column;
+    font-family: Pretendard;
+    text-align: left;
+    gap: 30px;
+    color: rgba(0, 0, 0, 1);
+    transform: translateX(-40px);
+}
 
 .text-box h2 {
     width: 510px;
     height: 135px;
-
-    font-family: Pretendard;
     font-size: 36px;
     font-weight: 700;
     line-height: 45px;
-    text-align: left;
-    color: rgba(0, 0, 0, 1);
 }
 
 .text-box p {
     width: 510px;
     height: 40px;
-
-    font-family: Pretendard;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    text-align: left;
-    color: rgba(0, 0, 0, 1)
 }
 
-.image-text-combo-two {
+/* 섹션2 */
+.section-two {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    padding: 0px 320px;
+    gap: 10px
+}
+
+.text-box-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    font-family: Pretendard;
+    gap: 40px;
 }
 
 .section-two h3 {
-    width: auto;
+    width: 950px;
     height: 60px;
-    top: 1570px;
-    margin-bottom: 30px;
-
-    font-family: Pretendard;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -65,39 +71,33 @@
 .section-two p {
     width: 800px;
     height: 42px;
-    top: 1670px;
-
-    font-family: Pretendard;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: rgba(0, 0, 0, 1);
 }
 
-p span {
-    font-family: Pretendard;
+.section-two p span {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
-    text-align: center;
     color: rgba(217, 118, 82, 1);
 }
 
 .image-gallery img {
-    width: 430px;
-    height: 430px;
+    width: 378px;
+    height: 378px;
     border-radius: 30px;
 }
 
 .image-gallery {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    /* 두 줄 사이의 간격 */
+    gap: 10px;
 }
 
 .image-gallery-row {
     display: flex;
     justify-content: center;
-    /* 이미지 간의 간격을 고르게 분배 */
+    gap: 10px;
 }
