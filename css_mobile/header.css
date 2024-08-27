@@ -4,10 +4,10 @@
 }
 
 header {
-    width: auto;
-    /* width: 100%; */
-    height: 76px;
+    top: 0;
     position: sticky;
+    width: auto;
+    height: 76px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,9 +16,8 @@ header {
 }
 
 header .logo {
-    display: inline-block;
     width: 92px;
-    height: 28px;
+    height: auto;
 }
 
 #open-menu {
@@ -30,13 +29,11 @@ header .logo {
 }
 
 #orange-btn {
-    /* display: inline-block; */
     background: rgba(217, 118, 82, 1);
     color: rgba(255, 255, 255, 1);
     width: 114px;
     height: 40px;
     border-radius: 40px;
-    padding: 10px 20px;
 
     font-family: Pretendard;
     font-size: 14px;
