@@ -6,10 +6,6 @@
 }
 
 .subscribe-section {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     padding: 0 32px;
     position: absolute;
     z-index: 1;
@@ -22,10 +18,6 @@
 }
 
 .subscribe-content {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-
     width: 262x;
     height: 276px;
     position: absolute;
@@ -53,7 +45,6 @@
     font-weight: 700;
     line-height: 30px;
     color: rgba(255, 255, 255, 1);
-    /* margin: 0; */
 }
 
 .subscribe-content p {
@@ -67,7 +58,6 @@
 
 .subscribe-form {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     position: absolute;
     z-index: 2;
@@ -81,12 +71,8 @@
 }
 
 .email-form {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     position: absolute;
     z-index: 3;
-
     width: 262px;
     height: 40px;
 }
@@ -94,7 +80,6 @@
 .mail-icon {
     position: absolute;
     z-index: 3;
-
     width: 18px;
     height: 18px;
     top: 11px;
@@ -121,9 +106,6 @@
 .background-image {
     width: 390px;
     height: 240px;
-    /* display: flex;
-    height: auto;
-    display: block; */
     position: relative;
     z-index: 0;
     top: 280px;
@@ -137,13 +119,11 @@
     height: 40px;
     border-radius: 40px;
 
-    /* padding: 10px 20px; */
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
     text-align: center;
     border: none;
-
     position: relative;
     z-index: 3;
     top: 60px;
