@@ -9,13 +9,13 @@ header {
     width: auto;
     height: 76px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: rgba(242, 233, 216, 1);
+    justify-content: space-between;
     padding: 0 20px;
+    background-color: rgba(242, 233, 216, 1);
 }
 
-header .logo {
+header img {
     width: 92px;
     height: auto;
 }
