@@ -20,13 +20,8 @@
 }
 
 .subscribe-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: baseline;
-
     width: 1164px;
-    height: 99px;
+    height: 100px;
     position: absolute;
     z-index: 2;
 }
@@ -34,31 +29,31 @@
 .subscribe-content .text-box {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    left: 50%;
+    align-items: baseline;
+}
+
+.text-box-four {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-family: Pretendard;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    z-index: 2;
 }
 
 .subscribe-content h4 {
-    font-family: Pretendard;
     font-size: 36px;
     font-weight: 700;
     line-height: 45px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
-    margin: 0;
 }
 
 .subscribe-content p {
-    position: absolute;
-    z-index: 2;
-    top: 55px;
-
-    font-family: Pretendard;
+    width: 471px;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
 }
 
 .subscribe-form {
@@ -68,21 +63,20 @@
     position: absolute;
     z-index: 2;
 
-    background-color: rgba(255, 255, 255, 1);
     width: 530px;
     height: 60px;
     border-radius: 60px;
+    background-color: rgba(255, 255, 255, 1);
     top: 20%;
-    left: 55%;
+    left: 54%;
 }
 
 .email-form {
+    position: absolute;
+    z-index: 3;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    z-index: 3;
-
     width: 530px;
     height: 60px;
 }
@@ -90,7 +84,6 @@
 .mail-icon {
     position: absolute;
     z-index: 3;
-
     width: 24px;
     height: 24px;
     top: 18px;
@@ -100,7 +93,6 @@
 .subscribe-form input[type="email"] {
     position: absolute;
     z-index: 3;
-
     width: 200px;
     height: 20px;
     left: 65px;
@@ -116,9 +108,8 @@
 
 .background-image {
     display: flex;
-
-    width: 100vw;
-    height: auto;
+    width: auto;
+    height: 340px;
     display: block;
     position: relative;
     z-index: 0;

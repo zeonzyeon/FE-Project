@@ -26,7 +26,6 @@
 
 .text-box h2 {
     width: 510px;
-    height: 135px;
     font-size: 36px;
     font-weight: 700;
     line-height: 45px;
@@ -34,7 +33,6 @@
 
 .text-box p {
     width: 510px;
-    height: 40px;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -61,7 +59,6 @@
 
 .section-two h3 {
     width: 950px;
-    height: 60px;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -70,7 +67,6 @@
 
 .section-two p {
     width: 800px;
-    height: 42px;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -93,11 +89,11 @@
 .image-gallery {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 73px;
 }
 
 .image-gallery-row {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 73px;
 }

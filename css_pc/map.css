@@ -1,29 +1,39 @@
 .section-three {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: baseline;
     padding: 0 320px;
 }
 
-.location-section .text-box {
-    text-align: left;
+.location-section {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 45px;
 }
 
-.location-section h3 {
+.text-box-three {
+    display: flex;
+    flex-direction: column;
     font-family: Pretendard;
+    text-align: left;
+    gap: 20px;
+}
+
+.text-box-three h3 {
+    width: 280px;
     font-size: 36px;
     font-weight: 700;
     line-height: 45px;
     color: rgba(0, 0, 0, 1);
-    margin-bottom: 20px;
 }
 
-.location-section p {
-    font-family: Pretendard;
+.text-box-three p {
+    width: auto;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     color: rgba(96, 99, 103, 1);
-    margin-bottom: 30px;
 }
 
 .location-section img {
