@@ -1,53 +1,53 @@
 footer {
-    padding: 0 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: auto;
-    height: 160px;
+    height: 178px;
+    padding: 0 20px;
+    margin-top: 300px;
 }
 
-#scroll-top-btn {
-    display: none;
-    width: 35px;
-    height: 35px;
-    bottom: 115px;
-    right: 20px;
-    cursor: pointer;
-    z-index: 1;
-    background: url("../image/scroll_0.png");
-    background-size: cover;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(196, 196, 196, 1);
-    border-radius: 50%;
-    position: fixed;
-    z-index: 100;
-}
-
-#scroll-top-btn:hover {
-    display: none;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background: url("../image/scroll_1.png");
-    background-size: cover;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(196, 196, 196, 1);
-    border-radius: 50%;
-    position: fixed;
-    z-index: 100;
+.img-content {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    margin-bottom:20px;
 }
 
 .hodu-logo {
-    width: auto;
-    height: 50px;
-    margin-top: 50px;
+    width: 112px;
+    height: auto;
+}
+
+.footer-social {
+    display:flex;
+    gap:15px;
 }
 
 .footer-social img {
-    width: 35px;
-    height: 35px;
-    margin-top: 60px;
-    cursor : pointer;
+    width: 32px;
+    height: auto;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    gap: 18px;
+    margin-bottom: 21px;
+}
+
+.text-content button {
+    width: 90px;
+    height: 18px;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: right;
+    color: rgba(118, 118, 118, 1);
+    background-color: white;
+    border: none;
 }

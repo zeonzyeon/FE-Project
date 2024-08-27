@@ -1,6 +1,4 @@
 .modal {
-    margin: 0;
-    padding: 0;
     position: fixed;
     top: 30%;
     left: 10%;
@@ -17,7 +15,7 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    /* display: none; */
+    display: none;
 }
 
 .modal::before {
