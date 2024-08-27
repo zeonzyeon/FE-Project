@@ -19,7 +19,7 @@
 <body>
     <header>
         <div class="logo"><img src="image/HODU_logo.png" alt="Hodu logo"></div>
-        <button id="open-menu" class="open-menu" onclick="openMenu()"></div>
+        <button id="open-menu" class="open-menu" onclick="openMenu()"></button>
     </header>
     <nav id="nav">
         <button id="close-menu" class="close-menu" onclick="closeMenu()"></button>
@@ -69,12 +69,102 @@
             <img src="image/img_6.png" alt="고양이6">
         </div>
     </section>
-    <br>
+    <br><br>
     <aside>
         <h4>Continue exploring HODU</h4>
-        <button id="orange-btn">Show more</button>
+        <button>Show more</button>
+        <br>
+        <hr>
     </aside>
     <br><br><br>
+    <section class="section-three">
+        <div class="location-section">
+            <div class="text-box">
+                <h3>Where you'll be</h3>
+                <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+            </div>
+            <img src="image/map.png" alt="지도 이미지">
+        </div>
+    </section>
+    <br><br>
+    <section class="section-four">
+        <div class="subscribe-section">
+            <div class="subscribe-content">
+                <div class="text-box">
+                    <h4>Subscribe to our Blog post</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                        Lorem Ipsum has been the industry's standard dummy text </p>
+                </div>
+            </div>
+            <div class="subscribe-form">
+                <form id="subscribeForm" class="email-form" onsubmit="submitEmail(event)" action="" method="POST">
+                    <label for="email">
+                        <img src="image/mail.png" alt="Mail Icon" class="mail-icon">
+                    </label>
+                    <input type="email" id="email" name="email" placeholder="Enter your e-mail address" required>
+                    <button id="modal-btn" type="button" onclick="validateEmail()">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <img src="image/footer_cat_mobile.png" alt="고양이" class="background-image">
+    </section>
+    <!-- 모달창 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <img src="image/modal_cat.png" alt="Cat Icon">
+            <h2>Thank you!</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+            <button id="modal-off-btn" type="button" onclick="modalOff()">OK! I Love HODU</button>
+        </div>
+    </div>
+    <br><br>
+    <footer>
+        <!-- 스크롤 버튼 -->
+        <button id="scroll-top-btn" onclick="scrollToTop()"></button>
+        <img class="hodu-logo" src="image/HODU_logo.png" alt="Hodu logo"></div>
+        <div class="footer-social">
+            <img src="image/icon_b.png" alt="b">
+            <img src="image/icon_insta.png" alt="instagram">
+            <img src="image/icon_f.png" alt="f">
+            <img src="image/icon_youtube.png" alt="youtube">
+        </div>
+    </footer>
+    <!-- 모달창 -->
+    <script>
+        // 이메일 유효성 검사
+        function validateEmail() {
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // 이메일 패턴
+            let emailInput = document.getElementById("email").value;
+
+            if (emailInput === "") {
+                alert("이메일을 입력하세요.");
+            } else if (!emailPattern.test(emailInput)) {
+                alert("유효한 이메일 형식을 입력하세요.");
+            } else {
+                modalOn();
+            }
+        }
+
+        const modalBtn = document.getElementById("modal-btn");
+        const modalOffBtn = document.getElementById("modal-off-btn");
+        const modal = document.getElementById("modal");
+
+        // 모달창 띄우기
+        function modalOn() {
+            modal.style.display = "flex";
+        }
+        function modalOff() {
+            modal.style.display = "none";
+        }
+        function submitEmail(event) {
+            alert("이메일이 제출되었습니다.");
+            document.getElementById("emailForm").submit(); // 폼 제출
+        }
+        modalOffBtn.addEventListener("click", e => {
+            submitEmail();
+            modalOff();
+        })
+    </script>
     <script src="js_mobile/menu.js"></script>
 </body>
 

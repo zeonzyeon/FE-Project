@@ -1,0 +1,43 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 32px;
+    gap: 28px;
+}
+
+aside h4 {
+    width: 300px;
+    height: 24px;
+
+    font-family: Pretendard;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+aside button {
+    background: rgba(217, 118, 82, 1);
+    color: rgba(255, 255, 255, 1);
+    width: Hug (143px)px;
+    height: Hug (50px)px;
+    padding: 15px 29px 15px 29px;
+    gap: 10px;
+    border-radius: 40px;
+
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    border: none;
+}
+
+aside hr {
+    width: 326px;
+    border: none;
+    border-top: 1px solid rgba(196, 196, 196, 1);
+}

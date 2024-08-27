@@ -1,0 +1,151 @@
+.section-four {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0 32px;
+}
+
+.subscribe-section {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 0 32px;
+    position: absolute;
+    z-index: 1;
+
+    width: 266px;
+    height: 348px;
+    border-radius: 18px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(38, 49, 64, 1);
+}
+
+.subscribe-content {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+    width: 262x;
+    height: 276px;
+    position: absolute;
+    z-index: 2;
+}
+
+.subscribe-content .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    position: absolute;
+    z-index: 2;
+
+    font-family: Pretendard;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 36px;
+}
+
+.subscribe-content h4 {
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    /* margin: 0; */
+}
+
+.subscribe-content p {
+    width: 280px;
+    height: 72px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(242, 233, 216, 1);
+}
+
+.subscribe-form {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+
+    background-color: rgba(255, 255, 255, 1);
+    width: 262px;
+    height: 40px;
+    border-radius: 60px;
+    top: 218px;
+
+}
+
+.email-form {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    z-index: 3;
+
+    width: 262px;
+    height: 40px;
+}
+
+.mail-icon {
+    position: absolute;
+    z-index: 3;
+
+    width: 18px;
+    height: 18px;
+    top: 11px;
+    left: 18px;
+}
+
+.subscribe-form input[type="email"] {
+    position: absolute;
+    z-index: 3;
+    width: 144px;
+    height: 16px;
+    top: 12px;
+    left: 50px;
+
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    border: none;
+    color: rgba(118, 118, 118, 1);
+}
+
+.background-image {
+    width: 390px;
+    height: 240px;
+    /* display: flex;
+    height: auto;
+    display: block; */
+    position: relative;
+    z-index: 0;
+    top: 280px;
+}
+
+#modal-btn {
+    display: inline-block;
+    background: rgba(217, 118, 82, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 115px;
+    height: 40px;
+    border-radius: 40px;
+
+    /* padding: 10px 20px; */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    border: none;
+
+    position: relative;
+    z-index: 3;
+    top: 60px;
+    left: 150px;
+}
