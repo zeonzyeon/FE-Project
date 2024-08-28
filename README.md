@@ -45,24 +45,24 @@
 ### PC 버전
 header, main|section|
 ---|---|
-![alt text](<image_README.md/스크린샷 2024-08-28 111121.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 111227.png>)
+![alt text](<image_README.md/스크린샷 2024-08-28 111121.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 111227.png>)|
 
 section|aside|
 ---|---|
-![alt text](<image_README.md/스크린샷 2024-08-28 111259.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 111329.png>)
+![alt text](<image_README.md/스크린샷 2024-08-28 111259.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 111329.png>)|
 
 footer|modal|
 ---|---|
-![alt text](<image_README.md/스크린샷 2024-08-28 111410.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 111846.png>)
+![alt text](<image_README.md/스크린샷 2024-08-28 111410.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 111846.png>)|
 
 ### Mobile 버전
 header, main|nav|section|
 ---|---|---|
-![alt text](<image_README.md/스크린샷 2024-08-28 112039.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 112112.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 112142.png>)
+![alt text](<image_README.md/스크린샷 2024-08-28 112039.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 112112.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 112142.png>)|
 
 aside|footer|modal|
 ---|---|---|
-![alt text](<image_README.md/스크린샷 2024-08-28 112405.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 112439.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 132546.png>)
+![alt text](<image_README.md/스크린샷 2024-08-28 112405.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 112439.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 132546.png>)|
 
 ## 6. 주요 기능
 - 스크롤 이벤트
