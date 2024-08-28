@@ -10,13 +10,15 @@
 - **모바일 버전 개발**: 2024년 8월 26일 - 2024년 8월 27일
 - **최종 수정 및 문서화**: 2024년 8월 28일
 
-## 3. 개발 환경
+## 3. 개발 환경 및 배포 URL
 <img src="image_README.md/visual_studio_code.png" width="300" height="auto"/>
 
 - **개발 도구**: Visual Studio Code
 - **언어**: HTML, CSS, JavaScript
 - **버전 관리**: Git
 - **기타**: 피그마(Figma)를 참고하여 디자인 구현
+
+- **배포 URL**: https://zeonzyeon.github.io/FE-Project/
 
 ## 4. 사용 기술
 <img src="image_README.md/html_css_js.png" width="300" height="auto"/>
