@@ -1,11 +1,10 @@
 # 랜딩 페이지 프로젝트
 
 ## 1. 프로젝트 소개
-
+![alt text](image_README.md/figma.png)
 이 프로젝트는 피그마 디자인을 참고하여 구현된 웹페이지입니다. 총 2가지의 프로젝트가 있습니다. 하나는 일반 웹 화면용이며, 다른 하나는 모바일 화면을 고려한 프로젝트입니다. 각 프로젝트는 HTML, CSS, JavaScript를 사용하여 요구사항을 충족하도록 구현되었습니다.
 
 ## 2. 요구사항
-
 1. **피그마를 참고하여 페이지 구현을 합니다.**
 2. **모바일 화면도 고려하여 페이지 구현을 합니다.**
 3. **스크롤 시 헤더가 고정되게 합니다.** 
@@ -25,6 +24,7 @@
 - **최종 수정 및 문서화**: 2024년 8월 28일
 
 ## 4. 개발 환경
+![alt text](image_README.md/visual_studio_code.png)
 - **개발 도구**: Visual Studio Code
 - **언어**: HTML, CSS, JavaScript
 - **버전 관리**: Git
@@ -37,21 +37,26 @@
 
 ## 5. 개발 화면
 ### PC 버전
-![alt text](<image_README.md/스크린샷 2024-08-28 111121.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 111227.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 111259.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 111329.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 111410.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 111846.png>)
+header, main|section|
+---|---|
+![alt text](<image_README.md/스크린샷 2024-08-28 111121.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 111227.png>)
+
+section|aside|
+---|---|
+![alt text](<image_README.md/스크린샷 2024-08-28 111259.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 111329.png>)
+
+footer|modal|
+---|---|
+![alt text](<image_README.md/스크린샷 2024-08-28 111410.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 111846.png>)
 
 ### Mobile 버전
-![alt text](<image_README.md/스크린샷 2024-08-28 112039.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 112112.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 112142.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 112255.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 112405.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 112439.png>)
-![alt text](<image_README.md/스크린샷 2024-08-28 132546.png>)
+header, main|nav|section|
+---|---|---|
+![alt text](<image_README.md/스크린샷 2024-08-28 112039.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 112112.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 112142.png>)
+
+aside|footer|modal|
+---|---|---|
+![alt text](<image_README.md/스크린샷 2024-08-28 112405.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 112439.png>)|![alt text](<image_README.md/스크린샷 2024-08-28 132546.png>)
 
 ## 6. 주요 기능
 스크롤 이벤트, 이메일 유효성 검사, 모달창 동작
