@@ -22,7 +22,8 @@
 - **기타**: 피그마(Figma)를 참고하여 디자인 구현
 
 ### 배포 URL
-https://zeonzyeon.github.io/FE-Project/
+- PC버전: https://zeonzyeon.github.io/FE-Project/hodu_pc.html
+- Mobile 버전: https://zeonzyeon.github.io/FE-Project/hodu_mobile.html
 
 
 ## 4. 사용 기술
